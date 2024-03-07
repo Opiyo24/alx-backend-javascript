@@ -40,7 +40,7 @@ class HolbertonCourse {
         if (students instanceof Array) {
             this._students = students;
         } else {
-            throw new TypeError('Students muist eb an array');
+            throw new TypeError('Students must be an Array');
         }
     }
 
